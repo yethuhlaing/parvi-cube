@@ -1,55 +1,57 @@
-import { FaLocationArrow } from "react-icons/fa6";
+import React from 'react'
+import { BackgroundBeamsWithCollision } from './ui/background-beams-with-collision'
+import MagicButton from './ui/MagicButton'
+import HeroImage from '@/app/assets/hero.png'
+import Image from 'next/image'
+import { FAQ } from './faq'
 
-import { socialMedia } from "@/data";
-import MagicButton from "./ui/MagicButton";
+function Footer() {
+    return (
+        <BackgroundBeamsWithCollision>
 
-const Footer = () => {
-  return (
-    <footer className="w-full pt-20 pb-10" id="contact">
-      {/* background grid */}
-      <div className="w-full absolute left-0 -bottom-72 min-h-96">
-        <img
-          src="/footer-grid.svg"
-          alt="grid"
-          className="w-full h-full opacity-50 "
-        />
-      </div>
+            <section className="px-10 lg:px-28">
+                <div className="container mx-auto flex flex-col md:flex-row md:justify-between items-center">
+                    <div className="w-full md:w-1/2">
+                        <Image src={HeroImage} alt="Parvi Cube Registration" className="w-full max-w-md rounded-lg shadow-lg" priority />
+                    </div>
+                    <div className="w-full md:w-1/2 mb-8 md:mb-0">
+                        <h2 className="text-4xl font-black md:text-6xl uppercase mb-6">Hey Cubers!</h2>
+                        <div className="text-base md:text-lg leading-relaxed flex flex-col space-y-2 text-justify">
+                            <div>
+                                Welcome to Parvi Cube 2024, where creativity meets technology! For this year's event, we're bringing together bright minds from diverse backgrounds to solve real-world challenges. Whether you're a developer, designer, or entrepreneur, we’ve created a space where you can collaborate, learn, and turn your ideas into impactful solutions.
+                            </div>
+                            <div>
+                                We'll equip you with the tools, mentorship, and workshops you need to fuel your imagination and create something extraordinary. And while we can't reveal everything just yet, expect an exciting lineup of activities, inspiring speakers, and opportunities to connect with industry leaders.
+                            </div>
+                            <div>
+                                We can’t wait to see the incredible solutions you’ll bring to life!
+                            </div>
+                        </div>
+                        <p className="mt-4 font-semibold">— Team Parvi Cube 🌟</p>
+                    </div>
 
-      <div className="flex flex-col items-center">
-        <h1 className="heading lg:max-w-[45vw]">
-          Ready to take <span className="text-purple">your</span> digital
-          presence to the next level?
-        </h1>
-        <p className="text-white-200 md:mt-10 my-5 text-center">
-          Reach out to me today and let&apos;s discuss how I can help you
-          achieve your goals.
-        </p>
-        <a href="mailto:contact@jsmastery.pro">
-          <MagicButton
-            title="Let's get in touch"
-            icon={<FaLocationArrow />}
-            position="right"
-          />
-        </a>
-      </div>
-      <div className="flex mt-16 md:flex-row flex-col justify-between items-center">
-        <p className="md:text-base text-sm md:font-normal font-light">
-          Copyright © 2024 Adrian Hajdin
-        </p>
+                    {/* <div className="flex flex-col items-center">
+                        <h1 className="text-4xl font-black md:text-6xl uppercase mb-4">
+                            Did we miss anything?
+                        </h1>
+                        <p className="text-white-200 md:mt-10 my-5 ">
+                            Reach out to us at team@parvicube.com😊
+                        </p>
+                        <a href="mailto:team@parvicube.com">
+                            <MagicButton
+                                title="Let's get in touch"
+                                icon={<FaLocationArrow />}
+                                position="right"
+                            />
+                        </a>
+                    </div> */}
+                </div>
+            </section>
 
-        <div className="flex items-center md:gap-3 gap-6">
-          {socialMedia.map((info) => (
-            <div
-              key={info.id}
-              className="w-10 h-10 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-lg border border-black-300"
-            >
-              <img src={info.img} alt="icons" width={20} height={20} />
-            </div>
-          ))}
-        </div>
-      </div>
-    </footer>
-  );
-};
+        </BackgroundBeamsWithCollision>
+        
 
-export default Footer;
+    )
+}
+
+export default Footer

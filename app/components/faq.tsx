@@ -39,16 +39,16 @@ const accordionData = [
 ];
 export function FAQ() {
     return (
-        <div className="flex flex-col md:flex-row justify-between items-center h-screen px-10 lg:px-28">
+        <div className="flex flex-col md:flex-row justify-between lg:px-28">
             <div className="w-full md:w-1/2 flex flex-col justify-center items-center md:items-start mb-15">
                 <h1 className='text-4xl font-black md:text-6xl uppercase mb-4'>FAQ</h1>
                 <h2 className="text-xl ">Got questions? If you can't find an answer here, contact us at <a href="mailto:team@parvicube.com" className="text-blue-500 underline">team@parvicube.com</a></h2>
             </div>
-            <Accordion type="single" collapsible className="w-full px-20 lg:px-28">
+            <Accordion type="single" collapsible className="w-full my-10 lg:my-20 lg:px-28">
                 {accordionData.map((item) => (
                     <AccordionItem key={item.value} value={item.value}>
-                        <AccordionTrigger className='text-2xl font-semibold'>{item.trigger}</AccordionTrigger>
-                        <AccordionContent className='text-lg font-semibold'>{item.content}</AccordionContent>
+                        <AccordionTrigger className='text-lg lg:text-2xl font-semibold'>{item.trigger}</AccordionTrigger>
+                        <AccordionContent className='text-base lg:text-lg font-semibold'>{item.content}</AccordionContent>
                     </AccordionItem>
                 ))}
             </Accordion>

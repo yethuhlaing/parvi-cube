@@ -27,21 +27,27 @@ const Countdown = () => {
     }, []);
 
     return (
-        <div className="relative flex h-[500px] w-full flex-col items-center justify-center overflow-hidden bg-background p-10">
+        <div className="relative flex h-[500px] w-full flex-col items-center justify-center overflow-hidden bg-transparent p-10 py-10">
             <Meteors number={30} />
-            <div className="font-semibold md:text-4xl text-lg">
+            <div className="font-semibold md:text-2xl text-md">
                 <div>Join us for the Parvi Cube event at LUT University on October 16!</div>
                 <div>With a €100 prize pool, it’s an opportunity you won’t want to miss!</div>
             </div>
             <div className='p-10 flex flex-col items-center'>
-                <div className='w-full flex flex-row justify-center gap-3 sm:gap-8 mx-auto'>
-                    {Object.entries(timeLeft).map((el: any) => {
+                <div className='w-full flex flex-row justify-center items-center gap-3 sm:gap-8 mx-auto'>
+                    {Object.entries(timeLeft).map((el: any, index: number, arr: any[]) => {
                         const label = el[0];
                         const value = el[1];
                         return (
-                            <div className='w-1/4 max-w-[150px] sm:max-w-[200px] flex flex-col items-center justify-center h-[150px] sm:h-[200px] md:h-[250px]' key={label}>
-                                <div className='text-[30px] sm:text-[50px] md:text-[100px] font-semibold flex justify-center items-center w-[80px] sm:w-[120px] md:w-[200px] h-[80px] sm:h-[120px] md:h-[200px] relative'>
-                                    <span>{value}</span>
+                            <div key={label} className='flex flex-col items-center'>
+                                <div className='flex items-center'>
+                                    <div className='w-[80px] sm:w-[120px] md:w-[200px] h-[80px] sm:h-[120px] md:h-[200px] flex items-center justify-center text-[30px] sm:text-[50px] md:text-[100px] font-semibold'>
+                                        <span>{value}</span>
+                                    </div>
+                                    {/* Add colon if it's not the last item */}
+                                    {index < arr.length - 1 && (
+                                        <span className='text-[30px] sm:text-[50px] md:text-[100px] font-semibold mx-2'>:</span>
+                                    )}
                                 </div>
                                 <span className='text-lg font-light tracking-[4px] mt-2'>{label}</span>
                             </div>

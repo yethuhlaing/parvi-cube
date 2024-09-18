@@ -15,9 +15,9 @@ export default function Hero() {
                     <button className='w-48 h-12 text-sm sm:text-base rounded hover:bg-white hover:text-white hover:bg-opacity-5 transition-colors'>Contact</button>
                 </div>
             </div>
-            {/* <div className='w-full h-[screen] md:h-full md:w-3/5 flex items-center justify-center relative -z-10 mb-10'>
-                <Spline className="w-full flex scale-[1] lg:scale-[.9] items-center justify-center md:justify-start" scene='https://prod.spline.design/pvM5sSiYV2ivWraz/scene.splinecode' />
-            </div> */}
+            <div className='w-full h-[45vh] md:h-full md:w-3/5 flex items-center justify-center relative -z-10 mb-10'>
+                <Spline className="w-full flex scale-[1] lg:scale-[1] items-center justify-center md:justify-start" scene='https://prod.spline.design/pvM5sSiYV2ivWraz/scene.splinecode' />
+            </div>
         </div>
     )
 }
