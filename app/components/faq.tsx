@@ -42,7 +42,7 @@ export function FAQ() {
         <div className="flex flex-col md:flex-row justify-between lg:px-28">
             <div className="w-full md:w-1/2 flex flex-col justify-center items-center md:items-start mb-15">
                 <h1 className='text-4xl font-black md:text-6xl uppercase mb-4'>FAQ</h1>
-                <h2 className="text-xl ">Got questions? If you can't find an answer here, contact us at <a href="mailto:team@parvicube.com" className="text-blue-500 underline">team@parvicube.com</a></h2>
+                <h2 className="text-xl ">Got questions? If you can't find an answer here, contact us at <a href="mailto:team@parvicube.com" className="bg-gradient-to-r from-[#050deb] to-[#ff00e2] text-transparent bg-clip-text">team@parvicube.com</a></h2>
             </div>
             <Accordion type="single" collapsible className="w-full my-10 lg:my-20 lg:px-28">
                 {accordionData.map((item) => (

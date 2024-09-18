@@ -27,7 +27,7 @@ function Footer() {
                                 We can’t wait to see the incredible solutions you’ll bring to life!
                             </div>
                         </div>
-                        <p className="mt-4 font-semibold">— Team Parvi Cube 🌟</p>
+                        <p className="mt-4 font-semibold">— <span className='bg-gradient-to-r from-[#050deb] to-[#ff00e2] text-transparent bg-clip-text'>Team Parvi Cube</span> 🌟</p>
                     </div>
 
                     {/* <div className="flex flex-col items-center">
