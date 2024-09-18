@@ -1,9 +1,7 @@
 import React from 'react'
 import { BackgroundBeamsWithCollision } from './ui/background-beams-with-collision'
-import MagicButton from './ui/MagicButton'
 import HeroImage from '@/app/assets/hero.png'
 import Image from 'next/image'
-import { FAQ } from './faq'
 
 export default function Footer() {
     return (

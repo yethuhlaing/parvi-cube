@@ -1,8 +1,5 @@
 import React from "react";
 import { Vortex } from "./ui/vortex";
-import { FAQ } from "./faq";
-import MagicButton from "./ui/MagicButton";
-import { FaLocationArrow } from "react-icons/fa";
 
 export function About() {
   return (
@@ -23,7 +20,7 @@ export function About() {
               Parvi Cube is an immersive innovation event hosted at LUT University, bringing together creative minds from diverse fields including technology, business, and entrepreneurship. This event provides a platform for participants to collaborate and tackle real-world problems through creative solutions.
             </p>
             <p>
-              Whether you're a developer, designer, engineer, or business strategist, Parvi Cube is where ideas transform into impactful projects. You will have the opportunity to showcase their talents and compete for recognition and rewards. Join us and be a part of this vibrant community shaping the future!
+              Whether you are a developer, designer, engineer, or business strategist, Parvi Cube is where ideas transform into impactful projects. You will have the opportunity to showcase their talents and compete for recognition and rewards. Join us and be a part of this vibrant community shaping the future!
             </p>
           </div>
         </div>
