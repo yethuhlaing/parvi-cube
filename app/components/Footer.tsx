@@ -5,7 +5,7 @@ import HeroImage from '@/app/assets/hero.png'
 import Image from 'next/image'
 import { FAQ } from './faq'
 
-function Footer() {
+export default function Footer() {
     return (
         <BackgroundBeamsWithCollision>
 
@@ -54,4 +54,3 @@ function Footer() {
     )
 }
 
-export default Footer
