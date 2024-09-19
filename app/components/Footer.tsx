@@ -3,7 +3,7 @@ import { BackgroundBeamsWithCollision } from './ui/background-beams-with-collisi
 import HeroImage from '@/app/assets/hero.png'
 import Image from 'next/image'
 
-export function Footer() {
+export default function Footer() {
     return (
         <BackgroundBeamsWithCollision>
             <section className="px-10 lg:px-28">
