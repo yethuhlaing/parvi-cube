@@ -6,7 +6,6 @@ import Image from 'next/image'
 export function Footer() {
     return (
         <BackgroundBeamsWithCollision>
-
             <section className="px-10 lg:px-28">
                 <div className="container mx-auto flex flex-col md:flex-row md:justify-between items-center">
                     <div className="w-full md:w-1/2">
@@ -47,8 +46,7 @@ export function Footer() {
             </section>
 
         </BackgroundBeamsWithCollision>
-        
-
+    
     )
 }
 

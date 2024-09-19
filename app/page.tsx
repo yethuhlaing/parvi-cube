@@ -1,5 +1,3 @@
-"use client";
-
 import { About } from './components/about';
 import Countdown from './components/countdown';
 import { FAQ } from './components/faq';
