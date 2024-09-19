@@ -16,7 +16,7 @@ export function Footer() {
                         <h2 className="text-4xl font-black md:text-6xl uppercase mb-6">Hey Cubers!</h2>
                         <div className="text-base md:text-lg leading-relaxed flex flex-col space-y-2 text-justify">
                             <div>
-                                Welcome to Parvi Cube 2024, where creativity meets technology! For this year's event, we're bringing together bright minds from diverse backgrounds to solve real-world challenges. Whether you're a developer, designer, or entrepreneur, we’ve created a space where you can collaborate, learn, and turn your ideas into impactful solutions.
+                                For this year's event, we're bringing together bright minds from diverse backgrounds to solve real-world challenges. Whether you're a developer, designer, or entrepreneur, we’ve created a space where you can collaborate, learn, and turn your ideas into impactful solutions.
                             </div>
                             <div>
                                 We'll equip you with the tools, mentorship, and workshops you need to fuel your imagination and create something extraordinary. And while we can't reveal everything just yet, expect an exciting lineup of activities, inspiring speakers, and opportunities to connect with industry leaders.
