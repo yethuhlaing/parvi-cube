@@ -3,7 +3,6 @@ import localFont from "next/font/local";
 import "./globals.css";
 import ActiveSectionContextProvider from "./context/active-section-context";
 import Header from "./components/header";
-import Head from "next/head";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -31,10 +30,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <Head>
+      <head>
         {/* Link to the favicon */}
         <link rel="icon" href="/public/favicon.ico" />
-      </Head>
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased relative bg-black text-gray-50 text-opacity-90 no-s no-scrollbar`}
       >
