@@ -3,7 +3,7 @@
 import { About } from './components/about';
 import Countdown from './components/countdown';
 import { FAQ } from './components/faq';
-import Footer from "./components/footer";
+import FeatureSection from './components/FeatureSection';
 import Hero from './components/hero';
 
 export default function Home() {
@@ -14,7 +14,7 @@ export default function Home() {
       <About />
       {/* <CallToAction /> */}
       <FAQ />
-      <Footer />
+      <FeatureSection />
     </main>
   )
 }
