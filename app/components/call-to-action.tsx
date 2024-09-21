@@ -1,9 +1,8 @@
 "use client";
+
 import React from "react";
 import { motion } from "framer-motion";
 import { LampContainer } from "./ui/lamp";
-import MagicButton from "./ui/MagicButton";
-import { BsArrowBarRight } from "react-icons/bs";
 import Partners from "./Partners";
 
 export function CallToAction() {

@@ -15,13 +15,13 @@ const Footer = () => {
                             <h2 className="text-4xl font-black md:text-6xl uppercase mb-6">Hey Cubers!</h2>
                             <div className="text-base md:text-lg leading-relaxed flex flex-col space-y-2 text-justify">
                                 <div>
-                                    For this year's event, we're bringing together bright minds from diverse backgrounds to solve real-world challenges. Whether you're a developer, designer, or entrepreneur, we’ve created a space where you can collaborate, learn, and turn your ideas into impactful solutions.
+                                    For this year&apos;s event, we are bringing together bright minds from diverse backgrounds to solve real-world challenges. Whether you are a developer, designer, or entrepreneur, we have created a space where you can collaborate, learn, and turn your ideas into impactful solutions.
                                 </div>
                                 <div>
-                                    We'll equip you with the tools, mentorship, and workshops you need to fuel your imagination and create something extraordinary. And while we can't reveal everything just yet, expect an exciting lineup of activities, inspiring speakers, and opportunities to connect with industry leaders.
+                                    We will equip you with the tools, mentorship, and workshops you need to fuel your imagination and create something extraordinary. And while we cannot reveal everything just yet, expect an exciting lineup of activities, inspiring speakers, and opportunities to connect with industry leaders.
                                 </div>
                                 <div>
-                                    We can’t wait to see the incredible solutions you’ll bring to life!
+                                    We cannot wait to see the incredible solutions you will bring to life!
                                 </div>
                             </div>
                             <p className="mt-4 font-semibold">— <span className='bg-gradient-to-r from-[#050deb] to-[#ff00e2] text-transparent bg-clip-text'>Team Parvi Cube</span> 🌟</p>
