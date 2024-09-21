@@ -30,7 +30,7 @@ export default function RootLayout({
     <html lang="en">
       <head>
         {/* Link to the favicon */}
-        <link rel="icon" href="/public/favicon.ico" />
+        <link rel="icon" href="/public/favicon.png" />
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased relative bg-black text-gray-50 text-opacity-90 no-s no-scrollbar`}
