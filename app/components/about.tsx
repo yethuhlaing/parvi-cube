@@ -1,20 +1,14 @@
 import React from "react";
-import { Vortex } from "./ui/vortex";
+import { BackgroundLines } from "./ui/background-lines";
 
 export function About() {
   return (
-    <div className="mx-auto rounded-md min-h-screen overflow-hidden">
-      <Vortex
-        backgroundColor="black"
-        rangeY={800}
-        particleCount={500}
-        baseHue={120}
-        className="flex items-center flex-col justify-center px-2 py-20 w-full h-full"
-      >
-        <div className="flex flex-col items-center w-full px-10 lg:px-28 py-0 lg:py-20">
-          <h1 className="text-2xl font-bold md:text-6xl uppercase">
-            What is Parvi Cube?
-          </h1>
+    <div className="">
+      <BackgroundLines className="flex items-center justify-center w-full h-screen flex-col px-10 lg:px-28 bg-transparent">
+        <div>
+          <div className='flex flex-col gap-4'>
+            <h1 className='text-8xl font-black md:text-9xl uppercase text-center'>Cube!</h1>
+          </div>
           <div className=" md:mt-10 my-10 text-center text-base md:text-2xl tracking-wide leading-relaxed lg:leading-loose font-semibold">
             <p className="pb-4">
               Parvi Cube is an immersive innovation event hosted at LUT University, bringing together creative minds from diverse fields including technology, business, and entrepreneurship. This event provides a platform for participants to collaborate and tackle real-world problems through creative solutions.
@@ -24,7 +18,7 @@ export function About() {
             </p>
           </div>
         </div>
-      </Vortex>
+      </BackgroundLines>
     </div>
   );
 }
