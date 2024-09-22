@@ -1,8 +1,8 @@
 export const faq = [
   {
     id: "0",
-    question: "What is a hackathon?",
-    answer: "A 2-day hackathon with an 8-hour hacking session on the first day, followed by pitching on the second day.",
+    question: "What is a Parvi Cube?",
+    answer: "A 2-day mini-hackathon with an 8-hour hacking session on the first day, followed by pitching on the second day.",
   },
   {
     id: "1",
