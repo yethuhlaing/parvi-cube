@@ -40,7 +40,7 @@ const Countdown = () => {
         return null; // Avoid rendering mismatched content
     }
     return (
-        <div className="relative flex w-full flex-col items-center justify-center overflow-hidden bg-transparent p-10 py-10 ">
+        <div className="relative flex w-full flex-col items-center justify-center overflow-hidden bg-transparent px-10 lg:px-28 py-10">
             <Meteors number={20} />
             <div className='flex flex-col gap-4'>
                 <h1 className='text-8xl font-black md:text-9xl uppercase z-30 mt-20 text-center'>Find Us Here!</h1>
@@ -65,7 +65,7 @@ const Countdown = () => {
                                         <span className='text-[30px] sm:text-[50px] md:text-[100px] font-semibold mx-2'>:</span>
                                     )}
                                 </div>
-                                <span className='text-lg font-semibold tracking-[4px] mt-2'>{label}</span>
+                                <span className='text-base lg:text-lg font-semibold tracking-[4px] mt-2'>{label}</span>
                             </div>
                         );
                     })}

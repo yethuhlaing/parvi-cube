@@ -18,7 +18,7 @@ export default function Hero() {
                     <MagicButton
                     title='Register Now!'
                     otherClasses='w-lg'
-                        handleClick={() => router.push('/dashboard')}
+                        handleClick={() => router.push('https://forms.gle/dPhAGzZSVpZigcc78')}
                     />
                 </div>
             </div>
