@@ -22,9 +22,9 @@ export default function Hero() {
                     />
                 </div>
             </div>
-            {/* <div className='w-full h-[45vh] md:h-[130vh] md:w-3/5 flex items-center justify-center relative -z-10 mb-10'>
+            <div className='w-full h-[45vh] md:h-[130vh] md:w-3/5 flex items-center justify-center relative -z-10 mb-10'>
                 <Spline className="w-full flex scale-[1] lg:scale-[1] items-center justify-center md:justify-start" scene='https://prod.spline.design/pvM5sSiYV2ivWraz/scene.splinecode' />
-            </div> */}
+            </div>
         </div>
     )
 }
