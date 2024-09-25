@@ -3,7 +3,7 @@ import Spline from '@splinetool/react-spline';
 import MagicButton from './ui/MagicButton';
 import { useRouter } from 'next/navigation'
 import Image from 'next/image';
-import heroImage from "../assets/file.png"
+import heroImage from "../assets/hero.png"
 export default function Hero() {
     const router = useRouter()
 
