@@ -2,12 +2,13 @@ import React from 'react'
 import Spline from '@splinetool/react-spline';
 import MagicButton from './ui/MagicButton';
 import { useRouter } from 'next/navigation'
-
+import Image from 'next/image';
+import heroImage from "../assets/heroImage.jpg"
 export default function Hero() {
     const router = useRouter()
 
     return (
-        <div className="flex flex-col-reverse h-full md:flex-row w-full items-center justify-center relative overflow-hidden">
+        <div className="flex flex-col-reverse h-screen md:flex-row w-full items-center justify-center relative overflow-hidden">
             <div className='w-full h-2/4 md:h-full md:w-2/5 flex flex-col justify-center items-start px-10 lg:px-28'>
                 <div className='flex flex-col gap-4'>
                     <h1 className='text-8xl font-black md:text-9xl uppercase'>Parvi <br />Cube</h1>
@@ -22,8 +23,9 @@ export default function Hero() {
                     />
                 </div>
             </div>
-            <div className='w-full h-[45vh] md:h-[130vh] md:w-3/5 flex items-center justify-center relative -z-10 mb-10'>
-                <Spline className="w-full flex scale-[1] lg:scale-[1] items-center justify-center md:justify-start" scene='https://prod.spline.design/pvM5sSiYV2ivWraz/scene.splinecode' />
+            <div className='w-full h-full flex items-center justify-center relative -z-10 mb-10'>
+                <img src={heroImage.src} alt='hero Image'/>
+                {/* <Spline className="w-full flex scale-[1] lg:scale-[1] items-center justify-center md:justify-start" scene='https://prod.spline.design/pvM5sSiYV2ivWraz/scene.splinecode' /> */}
             </div>
         </div>
     )
