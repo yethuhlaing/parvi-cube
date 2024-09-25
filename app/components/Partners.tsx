@@ -13,35 +13,25 @@ function Partners() {
         // { src: BUSINESSMILL, alt: 'Image 4' },
     ];
     return (
-        <div className="overflow-hidden relative w-full py-20">
-            <div className="flex flex-col md:flex-row justify-center items-center space-x-4 ">
-                {images.map((img, index) => (
-                    <div key={index} className=" w-48 h-24">
-                        <Image
-                            src={img.src.src}
-                            alt={img.alt}
-                            width={202} // Adjust width
-                            height={100} // Adjust height
-                            className=''
-                        />
-                    </div>
-                ))}
+        <div className="h-[50%] my-8 bg-gradient-to-br uppercase from-slate-100 to-slate-50 py-4 bg-clip-text text-center text-6xl font-bold tracking-tight text-transparent md:text-7xl">
+            Powered By
+            <div className="overflow-hidden relative w-full py-20">
+                <div className="flex flex-col md:flex-row justify-center items-center space-x-4 ">
+                    {images.map((img, index) => (
+                        <div key={index} className=" w-48 h-24">
+                            <Image
+                                src={img.src.src}
+                                alt={img.alt}
+                                width={202} // Adjust width
+                                height={100} // Adjust height
+                                className=''
+                            />
+                        </div>
+                    ))}
+                </div>
             </div>
-            {/* Optional: Duplicate content for continuous scrolling */}
-            {/* <div className="flex space-x-4 absolute top-0 left-full animate-marquee">
-                {images.map((img, index) => (
-                    <div key={index} className="flex-shrink-0 w-48 h-24">
-                        <Image
-                            src={img.src}
-                            alt={img.alt}
-                            width={192}
-                            height={96}
-                            className="object-cover"
-                        />
-                    </div>
-                ))}
-            </div> */}
         </div>
+
     )
 }
 

@@ -55,9 +55,9 @@ const Countdown = () => {
                         const label = el[0];
                         const value = el[1];
                         return (
-                            <div key={label} className='flex flex-col items-center'>
+                            <div key={label} className='flex flex-col items-center justify-center'>
                                 <div className='flex items-center'>
-                                    <div className='w-[80px]  sm:w-[120px] md:w-[200px] h-[80px] sm:h-[120px] md:h-[200px] flex items-center justify-center text-[30px] sm:text-[50px] md:text-[100px] font-semibold'>
+                                    <div className='w-[40px]  sm:w-[120px] md:w-[200px] h-[80px] sm:h-[120px] md:h-[200px] flex items-center justify-center text-[30px] sm:text-[50px] md:text-[100px] font-semibold'>
                                         <span className="font-bold bg-gradient-to-r from-[#050deb] to-[#ff00e2] text-transparent bg-clip-text">{value}</span>
                                     </div>
                                     {/* Add colon if it's not the last item */}
@@ -65,7 +65,7 @@ const Countdown = () => {
                                         <span className='text-[30px] sm:text-[50px] md:text-[100px] font-semibold mx-2'>:</span>
                                     )}
                                 </div>
-                                <span className='text-base lg:text-lg font-semibold tracking-[4px] mt-2'>{label}</span>
+                                <span className='text-base lg:text-lg font-semibold tracking-[2px] mt-2 capitalize'>{label}</span>
                             </div>
                         );
                     })}
