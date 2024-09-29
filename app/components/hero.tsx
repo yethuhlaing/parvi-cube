@@ -1,9 +1,6 @@
 import React from 'react'
-import Spline from '@splinetool/react-spline';
 import MagicButton from './ui/MagicButton';
 import { useRouter } from 'next/navigation'
-import Image from 'next/image';
-import heroImage from "../assets/heroImage.jpg"
 import AnimatedCube from './ui/animated-cube';
 export default function Hero() {
     const router = useRouter()

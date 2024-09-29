@@ -1,7 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
 import HeroImage from '@/app/assets/hero.png'
-import { socials } from '../lib/data'
 
 function Feature() {
     return (

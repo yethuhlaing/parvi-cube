@@ -1,8 +1,4 @@
 import React from 'react'
-import { BackgroundBeamsWithCollision } from './ui/background-beams-with-collision'
-import HeroImage from '@/app/assets/hero.png'
-import Image from 'next/image'
-import { socials } from '../lib/data'
 const Footer = () => {
     return (
         <div>

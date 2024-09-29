@@ -2,7 +2,6 @@
 
 import React, { useState, useEffect } from "react";
 import Meteors from "./ui/meteors";
-import Partners from "./Partners";
 
 
 

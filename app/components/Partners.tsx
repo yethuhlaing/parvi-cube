@@ -4,7 +4,7 @@ import React from 'react'
 import LUTES from '/app/assets/LUTES.png'
 import LUT from '/app/assets/LUT.png'
 import LAB from '/app/assets/LAB.png'
-import BUSINESSMILL from '/app/assets/Business mill.png'
+// import BUSINESSMILL from '/app/assets/Business mill.png'
 function Partners() {
     const images = [
         { src: LUTES, alt: 'Image 1' },
