@@ -14,7 +14,8 @@ export default function Hero() {
                     <h1 className='text-8xl font-black md:text-9xl uppercase'>Parvi <br />Cube</h1>
                     <h2 className='text-xl md:text-2xl'>Think Big, Solve Bigger</h2>
                 </div>
-                <p className='max-w-md text-sm md:text-base text-zinc-500 py-2'>Join the Parvi Cube event at LUT University, where creative minds come together to tackle real-world challenges. </p>
+                <p className='max-w-md text-sm md:text-base text-zinc-500 py-2'>Where creativity meets innovation. Solve real-world challenges in tech or business in just 4 hours!
+                 </p>
                 <div className='w-full flex items-center justify-center md:justify-start mt-4'>
                     <MagicButton
                     title='Register Now!'

@@ -13,18 +13,17 @@ const Footer = () => {
                             <Image src={HeroImage} alt="Parvi Cube Registration" className="w-full max-w-md rounded-lg shadow-lg" priority />
                         </div>
                         <div className="w-full md:w-1/2 my-8 md:my-0">
-                            <h2 className="text-4xl font-black md:text-8xl uppercase mb-6">Hey Cubers!</h2>
+                            <h2 className="text-4xl font-black md:text-8xl uppercase mb-6">How It Works</h2>
                             <div className="text-base md:text-lg leading-relaxed flex flex-col space-y-2 text-justify">
                                 <div>
-                                    For this year&apos;s event, we are bringing together bright minds from diverse backgrounds to solve real-world challenges. Whether you are a developer, designer, or entrepreneur, we have created a space where you can collaborate, learn, and turn your ideas into impactful solutions.
+                                    Problem Reveal: Challenges will be announced at the event. Choose to solve either a tech or business problem.
                                 </div>
                                 <div>
-                                    We will equip you with the tools, mentorship, and workshops you need to fuel your imagination and create something extraordinary. And while we cannot reveal everything just yet, expect an exciting lineup of activities, inspiring speakers, and opportunities to connect with industry leaders.
+                                    Hacking: In just 4 hours, teams will brainstorm, build, and prepare their solutions.
                                 </div>
                                 <div>
-                                    We cannot wait to see the incredible solutions you will bring to life!
+                                    Presentations & Judging: Teams will present their solutions, with prizes awarded for Best Overall Solution and Audience Choice.                                </div>
                                 </div>
-                            </div>
                             <p className="mt-4 font-semibold">— <span className='bg-gradient-to-r from-[#050deb] to-[#ff00e2] text-transparent bg-clip-text'>Team Parvi Cube</span> 🌟</p>
                         </div>
 

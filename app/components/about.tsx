@@ -11,10 +11,10 @@ export function About() {
           </div>
           <div className=" md:mt-10 my-10 text-center text-base md:text-2xl tracking-wide leading-relaxed lg:leading-loose font-semibold">
             <p className="pb-4">
-              Parvi Cube is an immersive innovation event hosted at LUT University, bringing together creative minds from diverse fields including technology, business, and entrepreneurship. This event provides a platform for participants to collaborate and tackle real-world problems through creative solutions.
+              The Parvi Cube Hackathon and Junction TechRace are joining forces to bring you the ultimate innovation challenge! This 1-day event, hosted at LUT University, combines Parvi Cube's focus on problem-solving in both tech and business with Junction’s fast-paced, hands-on TechRace experience.
             </p>
             <p>
-              Whether you are a developer, designer, engineer, or entrepreneur, Parvi Cube is where ideas transform into impactful projects. You will have the opportunity to showcase their talents and compete for recognition and rewards. Join us and be a part of this vibrant community shaping the future!
+              Participants will face technology and business challenges, choosing one to solve while racing against the clock in a high-energy, 4-hour hacking session. Designers, developers, entrepreneurs, and students from all backgrounds are welcome!
             </p>
           </div>
         </div>
