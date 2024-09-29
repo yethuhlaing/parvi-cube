@@ -3,11 +3,13 @@ import { BackgroundLines } from "./ui/background-lines";
 
 export function About() {
   return (
-    <div className="">
-      <BackgroundLines className="flex items-center justify-center w-full h-screen flex-col px-10 lg:px-28 bg-transparent">
+    <div className="w-full h-screen">
+      <BackgroundLines className="flex items-center justify-center w-full h-full flex-col px-10 lg:px-28 bg-transparent relative">
         <div>
           <div className='flex flex-col gap-4'>
-            <h1 className='text-8xl font-black md:text-9xl uppercase text-center'>Cube!</h1>
+            <h1 className='text-5xl font-black md:text-8xl uppercase text-center'>
+              <span className="">Parvi Cube X TechRace</span>
+            </h1>
           </div>
           <div className=" md:mt-10 my-10 text-center text-base md:text-2xl tracking-wide leading-relaxed lg:leading-loose font-semibold">
             <p className="pb-4">

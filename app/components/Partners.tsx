@@ -13,8 +13,8 @@ function Partners() {
         // { src: BUSINESSMILL, alt: 'Image 4' },
     ];
     return (
-        <div className="h-[50%] my-8 bg-gradient-to-br uppercase from-slate-100 to-slate-50 py-4 bg-clip-text text-center text-6xl font-bold tracking-tight text-transparent md:text-7xl">
-            Powered By
+        <div className="h-[50%] my-0 lg:my-4 bg-gradient-to-br uppercase from-slate-100 to-slate-50 py-4 bg-clip-text text-5xl md:text-8xl text-center font-bold tracking-tight text-transparent">
+            Organizers
             <div className="overflow-hidden relative w-full py-20">
                 <div className="flex flex-col md:flex-row justify-center items-center space-x-4 ">
                     {images.map((img, index) => (
