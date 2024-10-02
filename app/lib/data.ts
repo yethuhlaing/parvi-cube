@@ -2,7 +2,7 @@ export const faq = [
   {
     id: "0",
     question: "What is Parvi Cube?",
-    answer: "A 1-day hackathon collaborated with Junction TechRace with 4-hour hacking and pitching sessions.",
+    answer: "A 2-day hackathon with an 8-hour hacking session on the first day, followed by presentations on the second day.",
   },
   {
     id: "1",
@@ -37,7 +37,7 @@ export const faq = [
   {
     id: "8",
     question: "Is there a prize?",
-    answer: "Yes, including Best Overall Solution prize",
+    answer: "Yes, including Best Overall Solution prize and Audience Choice Award",
   },
   {
     id: "9",

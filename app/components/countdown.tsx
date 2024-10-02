@@ -46,8 +46,8 @@ const Countdown = () => {
                 <h1 className='text-5xl font-black md:text-8xl uppercase z-30 mt-20 text-center'>Find Us Here!</h1>
                 <div className="mt-4 text-center">
                     <p className="text-xl md:text-2xl font-semibold">Parvi Cube at LUT University</p>
-                    <p className="text-xl md:text-2xl text-neutral-400">4-Hour Hacking (10:00-16:30) on Wednesday</p>
-                    <p className="text-lg md:text-xl mt-4"><span className="bg-gradient-to-r from-[#050deb] to-[#ff00e2] text-transparent bg-clip-text">October 16</span> - Don’t miss out!</p>
+                    <p className="text-xl md:text-2xl text-neutral-400">8-Hour Hacking (10:00-18:00) on Wednesday</p>
+                    <p className="text-lg md:text-xl mt-4"><span className="bg-gradient-to-r from-[#050deb] to-[#ff00e2] text-transparent bg-clip-text">October 16 & 17</span> - Don’t miss out!</p>
                 </div>
             </div>
             <div className='p-10 flex flex-col items-center'>

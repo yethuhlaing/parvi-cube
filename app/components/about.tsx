@@ -8,15 +8,15 @@ export function About() {
         <div>
           <div className='flex flex-col gap-4'>
             <h1 className='text-5xl font-black md:text-8xl uppercase text-center'>
-              <span className="">Parvi Cube X TechRace</span>
+              <span className="text-8xl font-black md:text-9xl uppercase">Cube!</span>
             </h1>
           </div>
           <div className=" md:mt-10 my-10 text-center text-base md:text-2xl tracking-wide leading-relaxed lg:leading-loose font-semibold">
             <p className="pb-4">
-              The Parvi Cube Hackathon and Junction TechRace are joining forces to bring you the ultimate innovation challenge! This 1-day event, hosted at LUT University, combines Parvi Cube&apos;s focus on problem-solving in both tech and business with Junction&apos;s fast-paced, hands-on TechRace experience.
+              The Parvi Cube Hackathon is back for 2-day of intense collaboration and creativity! Hosted at LUT University, this event challenges participants to tackle real-world problems through innovative tech and business solutions.
             </p>
             <p>
-              Participants will face technology and business challenges, choosing one to solve while racing against the clock in a high-energy, 4-hour hacking session. Designers, developers, entrepreneurs, and students from all backgrounds are welcome!
+              Teams will dive into an 8-hour hacking session, working together to build and present their ideas. Open to designers, developers, entrepreneurs, and students of all backgrounds - Get ready to bring your best ideas to life!
             </p>
           </div>
         </div>
