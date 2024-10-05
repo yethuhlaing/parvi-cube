@@ -60,7 +60,7 @@ export function EventTimeline() {
         <div className="w-full px-10 lg:px-28 mx-auto mt-8">
             <div className="w-full flex flex-col justify-center items-center mb-15">
                 <h1 className='text-5xl font-black md:text-8xl uppercase mb-4'>Schedule</h1>
-                <h2 className="text-lg md:text-xl text-center max-w-xl mt-2 mb-6">From brainstorming challenges to the final pitches, here&apos;s a timeline of the key moments from the <span className="bg-gradient-to-r from-[#050deb] to-[#ff00e2] text-transparent bg-clip-text">Parvi Cube Hackathon</span>.</h2>
+                <h2 className="text-lg md:text-xl text-center max-w-xl mt-2 mb-6">From brainstorming challenges to the final pitches, here&apos;s a timeline of the key moments from the <span className="bg-gradient-to-r from-[#050deb] to-[#ff00e2] text-transparent bg-clip-text">Parvi Cube Challenge</span>.</h2>
             </div>
             <Timeline data={data} />
         </div>

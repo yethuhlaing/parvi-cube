@@ -2,7 +2,7 @@ export const faq = [
   {
     id: "0",
     question: "What is Parvi Cube?",
-    answer: "A 2-day hackathon with an 8-hour hacking session on the first day, followed by presentations on the second day.",
+    answer: "A 2-day challenge with an 8-hour hacking session on the first day, followed by presentations on the second day.",
   },
   {
     id: "1",

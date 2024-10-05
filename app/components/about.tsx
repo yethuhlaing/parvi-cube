@@ -13,10 +13,10 @@ export function About() {
           </div>
           <div className=" md:mt-10 my-10 text-center text-base md:text-2xl tracking-wide leading-relaxed lg:leading-loose font-semibold">
             <p className="pb-4">
-              The Parvi Cube Hackathon is back for 2-day of intense collaboration and creativity! Hosted at LUT University, this event challenges participants to tackle real-world problems through innovative tech and business solutions.
+              The Parvi Cube Challenge is back for 2-day of intense collaboration and creativity! Hosted at LUT University, this event challenges participants to tackle real-world problems through innovative tech and business solutions.
             </p>
             <p>
-              Teams will dive into an 8-hour hacking session, working together to build and present their ideas. Open to designers, developers, entrepreneurs, and students of all backgrounds - Get ready to bring your best ideas to life!
+              Teams will dive into an 8-hour Working session, working together to build and present their ideas. Open to designers, developers, entrepreneurs, and students of all backgrounds - Get ready to bring your best ideas to life!
             </p>
           </div>
         </div>

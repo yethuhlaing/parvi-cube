@@ -16,7 +16,7 @@ const geistMono = localFont({
 
 export const metadata: Metadata = {
   title: "Parvi Cube",
-  description: "A hackathon",
+  description: "A Parvi Cube Challenge",
 };
 
 export default function RootLayout({
