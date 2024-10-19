@@ -11,7 +11,7 @@ export function About() {
               <span className="text-8xl font-black md:text-9xl uppercase">Cube!</span>
             </h1>
           </div>
-          <div className=" md:mt-10 my-10 text-center text-base md:text-2xl tracking-wide leading-relaxed lg:leading-loose font-semibold">
+          <div className=" md:mt-10 my-10 text-center text-base md:text-2xl tracking-wide leading-relaxed lg:leading-loose font-semibold max-w-4xl">
             <p className="pb-4">
               The Parvi Cube Challenge is back for 2-day of intense collaboration and creativity! Hosted at LUT University, this event challenges participants to tackle real-world problems through innovative tech and business solutions.
             </p>

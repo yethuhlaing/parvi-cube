@@ -1,3 +1,18 @@
+import one from "@/app/assets/memories/1.jpeg"
+import two from "@/app/assets/memories/2.jpeg"
+import three from "@/app/assets/memories/3.jpeg"
+import four from "@/app/assets/memories/4.jpeg"
+import five from "@/app/assets/memories/5.jpeg"
+import six from "@/app/assets/memories/6.jpeg"
+import seven from "@/app/assets/memories/7.jpeg"
+import eight from "@/app/assets/memories/8.jpeg"
+import nine from "@/app/assets/memories/9.jpeg"
+import ten from "@/app/assets/memories/10.jpeg"
+import eleven from "@/app/assets/memories/11.jpeg"
+import tweleve from "@/app/assets/memories/12.jpeg"
+import thirteen from "@/app/assets/memories/13.jpeg"
+import fourteen from "@/app/assets/memories/14.jpeg"
+
 export const faq = [
   {
     id: "0",
@@ -58,5 +73,66 @@ export const socials = [
     title: "Telegram",
     icon: "/app/assets/social/telegram.svg",
     url: "#",
+  },
+];
+
+export const memories = [
+  {
+    header: one,
+    className: "",
+  },
+
+  {
+    header: tweleve,
+    className: "",
+  },
+  {
+    header: three,
+    className: "",
+  },
+  {
+    header: four,
+    className: "",
+  },
+
+  {
+    header: five,
+    className: "",
+  },
+  {
+    header: nine,
+    className: "",
+  },
+    {
+    header: seven,
+    className: "",
+  },
+    {
+    header: eight,
+    className: "",
+  },
+    {
+    header: six,
+    className: "",
+  },
+    {
+    header: ten,
+    className: "",
+  },
+    {
+    header: eleven,
+    className: "",
+  },
+    {
+    header: two,
+    className: "",
+  },
+    {
+    header: thirteen,
+    className: "",
+  },
+    {
+    header: fourteen,
+    className: "",
   },
 ];

@@ -28,12 +28,16 @@ const Countdown = () => {
 
         return { days, hours, minutes, seconds };
     };
+    const getDefaultTimeLeft = () => {
+        return { days: 0, hours: 0, minutes: 0, seconds: 0 };
+    }
     useEffect(() => {
-        const timer = setInterval(() => {
-            setTimeLeft(getTimeLeft()); 
-        }, 1000);
+        // const timer = setInterval(() => {
+        //     setTimeLeft(getTimeLeft()); 
+        // }, 1000);
 
-        return () => clearInterval(timer);
+        // return () => clearInterval(timer);
+        getDefaultTimeLeft()
     }, []);
     // Prevent SSR rendering until timeLeft is available
     if (!timeLeft) {
@@ -43,11 +47,13 @@ const Countdown = () => {
         <div className="relative flex w-full flex-col items-center justify-center overflow-hidden bg-transparent px-10 lg:px-28 py-10">
             <Meteors number={20} />
             <div className='flex flex-col gap-4'>
-                <h1 className='text-5xl font-black md:text-8xl uppercase z-30 mt-20 text-center'>Find Us Here!</h1>
-                <div className="mt-4 text-center">
-                    <p className="text-xl md:text-2xl font-semibold">Parvi Cube at LUT University</p>
-                    <p className="text-xl md:text-2xl text-neutral-400">8-Hour Hacking (10:00-18:00) on Wednesday</p>
-                    <p className="text-lg md:text-xl mt-4"><span className="bg-gradient-to-r from-[#050deb] to-[#ff00e2] text-transparent bg-clip-text">October 16 & 17</span> - Don’t miss out!</p>
+                <h1 className='text-5xl font-black md:text-7xl uppercase z-30 mt-20 text-center'>The Event Has Ended!</h1>
+                <div className="mt-4 md:max-w-2xl mx-auto text-center">
+                    {/* <p className="text-xl md:text-2xl font-semibold">Parvi Cube at LUT University</p> */}
+                    {/* <p className="text-xl md:text-2xl text-neutral-400">8-Hour Hacking (10:00-18:00) on Wednesday</p> */}
+                    {/* <p className="text-lg md:text-xl"><span className="bg-gradient-to-r from-[#050deb] to-[#ff00e2] text-transparent bg-clip-text">October 16 & 17</span> - Don’t miss out!</p> */}
+                    <p className="text-xl md:text-2xl text-neutral-400">Thank you to everyone who participated and made the event a success! We’ve wrapped up an incredible time of innovation, collaboration, and creativity. Teams came together, worked hard, and presented amazing ideas. </p>
+                    <p className="text-lg md:text-xl mt-4"><span className="bg-gradient-to-r from-[#050deb] to-[#ff00e2] text-transparent bg-clip-text ">Stay tuned for upcoming announcements about future events!</span></p>
                 </div>
             </div>
             <div className='p-10 flex flex-col items-center'>
