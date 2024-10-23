@@ -9,6 +9,7 @@ import Hero from './components/hero';
 import { Memories } from './components/memories';
 import Partners from './components/Partners';
 import { BackgroundBeamsWithCollision } from './components/ui/background-beams-with-collision';
+import Team from './components/team';
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <Partners />
       <Countdown />
       <Memories />
+      <Team />
       <EventTimeline />
       <BackgroundBeamsWithCollision>
         <FAQ />
